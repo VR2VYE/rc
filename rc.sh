@@ -10,4 +10,6 @@ chmod +x rc.local
 
 cp rc.local /etc/rc.local
 
+rm rc.sh
+
 reboot
