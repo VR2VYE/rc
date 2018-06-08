@@ -6,6 +6,8 @@ chmod +x rc.local
 
 cp rc.local /etc/rc.local
 
+cd
+
 rm rc.sh
 
 reboot
