@@ -11,7 +11,7 @@
 #
 # By default this script does nothing.
 
-#modem restar
+#modem restart
 mount -o remount,rw /
 echo 3 > /sys/class/gpio/export
 echo out > /sys/class/gpio/gpio3/direction
